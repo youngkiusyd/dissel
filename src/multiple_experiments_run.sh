@@ -42,10 +42,6 @@ mv /var/exp/172*.json /var/exp/uncontrol_270/
 sleep 10
 
 
-python ./after_experiment_statistics.py ops
-python ./after_experiment_statistics.py latency_temp
-python ./after_experiment_statistics.py latency_final
-
 cd /var/exp
 
 tar cvf results.tar ./*_*
